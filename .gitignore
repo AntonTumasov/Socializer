@@ -1,9 +1,9 @@
-Backend/logs
-Backend/target
+/Backend/logs
+/Backend/target
 /.idea
 /.idea_modules
 /.classpath
 /.project
 /.settings
-Backend/RUNNING_PID
-Backend/conf/application.conf
+/Backend/RUNNING_PID
+/Backend/conf/application.conf
