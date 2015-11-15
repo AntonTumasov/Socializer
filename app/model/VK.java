@@ -18,7 +18,15 @@ public class VK implements Socials{
         return null;
     }
 
-    public static Integer getLikes(String userId, String targetType) {
+    public static F.Promise<Integer> getLikes(String userId, String targetType) {
+        switch(targetType) {
+            case "wall":
+
+                break;
+            case "photos":
+                break;
+            default: return null;
+        }
         return null;
     }
 
