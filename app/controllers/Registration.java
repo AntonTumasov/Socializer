@@ -4,7 +4,6 @@ import model.jdbc_classes.*;
 import model.User;
 import play.data.Form;
 import play.mvc.*;
-import views.html.*;
 
 import java.sql.SQLException;
 
@@ -18,7 +17,7 @@ public class Registration extends Controller {
         if(session("username")!=null)
             return redirect(routes.Application.main());
         else
-            return ok(register.render());
+            return ok(views.html.register.render());
     }
 
     public Result registrate() {

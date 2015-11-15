@@ -13,23 +13,30 @@ import java.util.Map;
 /**
  * Created by Admin on 14.11.2015.
  */
-public class VK {
-    public Integer getLikes(String targetType, Date dateFrom, Date dateTo) {
+public class VK implements Socials{
+    public static Integer getLikes(String userId, String targetType, Date dateFrom, Date dateTo) {
         return null;
     }
-    public Integer getLikes(String targetType) {
+
+    public static Integer getLikes(String userId, String targetType) {
         return null;
     }
-    public Integer getReposts(String targetType, Date dateFrom, Date dateTo){
+
+    public static Integer getReposts(String userId, String targetType, Date dateFrom, Date dateTo) {
         return null;
     }
-    public Integer getReposts(String targetType){
+
+    public static Integer getReposts(String userId, String targetType){
         return null;
     }
-    public Map<String,Integer> getPeopleLikes(String targetType, Date dateFrom, Date dateTo){
+
+
+    public static Map<String, Integer> getPeopleLikes(String userId, String targetType, Date dateFrom, Date dateTo) {
         return null;
     }
-    public Map<String,Integer> getPeopleReposts(String targetType, Date dateFrom, Date dateTo){
+
+
+    public static Map<String, Integer> getPeopleReposts(String userId, String targetType, Date dateFrom, Date dateTo) {
         return null;
     }
 

@@ -8,9 +8,35 @@ import java.util.Map;
  * Created by Admin on 14.11.2015.
  */
 public interface Socials {
-    public Integer getLikes(String targetType, Date dateFrom, Date dateTo);
-    public Integer getReposts(String targetType, Date dateFrom, Date dateTo);
-    public Map<String,Integer> getPeopleLikes(String targetType, Date dateFrom, Date dateTo);
-    public Map<String,Integer> getPeopleReposts(String targetType, Date dateFrom, Date dateTo);
-    public Map<String,String> getUserInfo(String userId);
+    //dirty hack for implementing
+    public static Integer getLikes(String userId, String targetType, Date dateFrom, Date dateTo) {
+        return null;
+    }
+
+    public static Integer getLikes(String userId, String targetType) {
+        return null;
+    }
+
+    public static Integer getReposts(String userId, String targetType, Date dateFrom, Date dateTo) {
+        return null;
+    }
+
+    public static Integer getReposts(String userId, String targetType){
+        return null;
+    }
+
+
+    public static Map<String, Integer> getPeopleLikes(String userId, String targetType, Date dateFrom, Date dateTo) {
+        return null;
+    }
+
+
+    public static Map<String, Integer> getPeopleReposts(String userId, String targetType, Date dateFrom, Date dateTo) {
+        return null;
+    }
+
+
+    public static Map<String, String> getUserInfo(String userId) {
+        return null;
+    }
 }
